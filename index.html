@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDolist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <h2 id="head">Employees Task Tracker</h2>
+
+    <input type="text" id="mytext" minlength="1" maxlength="50"  >
+    <button  id="btn" disabled>Create</button>
+    <br><br>
+    <select id="status">
+        <option value="not-started">Not Yet Started</option>
+        <option value="in-progress">It is in Progress</option>
+        <option value="complete">Completed</option>
+    </select>
+    <ul id="task"></ul>
+ 
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
